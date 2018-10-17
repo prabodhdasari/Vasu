@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Material Design for Bootstrap fonts and icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Material Design for Bootstrap CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <!--Date Picker-->
+        <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <!--Nav Bar-->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+
+            <a class="navbar-brand" href="#">Company Name</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarTogglerDemo01"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../default.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbardropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            href="#">Products</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Body Section-->
+        <!--Date-->
+        <div class="container-fluid">
+            <div class="row mt-1 mb-1">
+                <div class="col col-sm-12 col-md-4 mt-1  align-content-center">
+                        <div class="card text-white bg-info " >
+                        <div class="cardtitle text-center"><h5><b>Today Expenses</b></h5></div>
+                        <div class="cardbody text-center"><h3>Rs. 2500</h3></div>
+                    </div>
+                </div>
+                <div class="col col-sm-12 col-md-4  mt-1 bg-light align-content-center">
+                        <div class="card text-white bg-success " >
+                                <div class="cardtitle text-center"><h5><b>Week Expenses</b></h5></div>
+                                <div class="cardbody text-center"><h3>Rs. 5000</h3></div>
+                            </div>
+                </div>
+                <div class="col col-sm12 col-md-4 mt-1 align-content-center">
+                        <div class="card text-white bg-primary " >
+                                <div class="cardtitle text-center"><h5><b>Month Expenses</b></h5></div>
+                        <div class="cardbody text-center"><h3>Rs. 25000</h3></div>
+                            </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid ">
+            <div class="row container-fluid">
+                <div class="   col-sm-12 col-md-2    mt-2"  >
+                        <form>
+                                <div class="form-group">
+                                    <!-- left unspecified, .bmd-form-group will be automatically added (inspect the code) -->
+                                    <label for="formGroupExampleInput" class="bmd-label-floating">Date</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput">
+                                </div>
+        
+                            </form>
+                    
+                </div>
+                <div class="   col-sm-12  col-md-2   m-1"  >
+                    <div class="form-group">
+                        <label for="exampleSelect1" class="bmd-label-floating">Location</label>
+                        <select class="form-control" id="exampleSelect1">
+                            <option>Hyderabad</option>
+                            <option>Rajamundry</option>
+                            <option>Vizag</option>
+                            <option>Vijaywada -1</option>
+                            <option>Vijaywada -2</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="   col-sm-12 col-md-2    m-1"  >
+
+                    <form>
+                        <div class="form-group">
+                            <!-- left unspecified, .bmd-form-group will be automatically added (inspect the code) -->
+                            <label for="formGroupExampleInput" class="bmd-label-floating">Expense Particulars</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput">
+                        </div>
+
+                    </form>
+                </div>
+                <div class="   col-sm-12 col-md-2    m-1"  >
+                    <form>
+                        <div class="form-group">
+                            <!-- left unspecified, .bmd-form-group will be automatically added (inspect the code) -->
+                            <label for="formGroupExampleInput" class="bmd-label-floating">Expense Amount</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput">
+                        </div>
+
+                    </form>
+                </div>
+                <div class="  col-sm-12 col-md-2   mt-4"   >
+                    <button type="button" class="btn btn-success btn-sm">Save</button>
+                    <button type="button" class="btn btn-secondary btn-sm">cancel</button>
+                </div>
+
+            </div><hr>
+            <table class="table small">
+                    <thead>
+                      <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Location</th>
+                        <th scope="col">Particulars</th>
+                        <th scope="col">Amount</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td scope="row">12/Sep/2018</th>
+                        <td>Hyderabad</td>
+                        <td>Lunch</td>
+                        <td>200</td>
+                      </tr>
+                      <tr>
+                        <td scope="row">25/Sep/2018</th>
+                        <td>Hyderabad</td>
+                        <td>Dinner</td>
+                        <td>300</td>
+                      </tr>
+                      <tr>
+                        <td scope="row">25/Sep/2018</th>
+                        <td>Hyderabad</td>
+                        <td>Labor Payment</td>
+                        <td>500</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+
+
+
+        </div>
+    </div>
+    </div>
+    </div>
+    <!--Date Picker Script-->
+    <script>
+        $('#datepicker').datepicker({
+            uiLibrary: 'bootstrap4'
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+        crossorigin="anonymous"></script>
+    <script>$(document).ready(function () { $('body').bootstrapMaterialDesign(); });</script>
+    <!-- SNACKBAR-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+        crossorigin="anonymous"></script>
+
+    <!-- SnackbarJS plugin -->
+    <script src="https://cdn.rawgit.com/FezVrasta/snackbarjs/1.1.0/dist/snackbar.min.js"></script>
+
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+        crossorigin="anonymous"></script>
+    <script>
+        $('body').bootstrapMaterialDesign();
+    </script>
+</body>
+
+</html>
